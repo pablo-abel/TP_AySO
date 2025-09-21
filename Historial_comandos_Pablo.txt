@@ -1,0 +1,72 @@
+sudo apt update 
+sudo apt upgrade 
+sudo apt install tree
+tree
+sudo apt install neofetch 
+neofetch 
+history 
+uname -a
+lsmod | grep vboxguest
+ssh-keygen
+cd ..
+cat .ssh/*.pub
+cat /.ssh/*.pub
+ls -la
+cd ..
+ls
+cat $HOME/.ssh/*.pub
+cat ~/.ssh/*.pub
+cat /.ssh/*.pub
+cat ~/.ssh/*.pub
+cat $HOME/.ssh/*.pub
+ls -la
+cd 
+ls
+rm -r repogit/
+rm -rf repogit/
+ls
+mkdir repogit
+cd repogit/
+ls
+ls -la
+git clone git@github.com:pablo-abel/TP_AySO.git
+ls
+pwd
+cd TP_AySO/
+pwd
+ls
+ls -l
+cat /etc/os-release
+cat /etc/os-release | grep HOME_URL
+cat /etc/os-release | grep -i home_url
+grep -i Home_url /etc/os-release
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git status 
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git config --global user.email "toledopablo037@gmail.com"
+git config --global user.name "pablo-abel"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status 
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git status 
+git commit -m "feat: Añadiendo información de CPU"
+cat <<EOF >> README.md 
+Alumno: Pablo Toledo
+División: 315
+Turno: Noche
+EOF
+
+cat README.md 
+nano README.md 
+cat README.md 
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
